@@ -1,2 +1,2 @@
 # RAT-game
-idkxlg=re=d
+Simple game made in C with SDL3
