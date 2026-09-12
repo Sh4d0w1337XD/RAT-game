@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Win64",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:/yes/GGE/SDL3-3.2.28/x86_64-w64-mingw32/include",
+                "D:/yes/GGE/SDL3_ttf-devel-3.1.0-mingw/SDL3_ttf-3.1.0/x86_64-w64-mingw32/include", 
+                "D:/yes/GGE/SDL3_image-devel-3.2.4-mingw/SDL3_image-3.2.4/x86_64-w64-mingw32/include"
+                
+            ],
+            "defines": [],
+            "compilerPath": "C:/cygwin64/bin/x86_64-w64-mingw32-gcc.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}

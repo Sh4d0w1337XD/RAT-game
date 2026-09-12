@@ -1,0 +1,31 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "Build SDL3 Project",
+            "command": "C:/cygwin64/bin/x86_64-w64-mingw32-gcc.exe",
+            "args": [
+                "-g",
+                "${workspaceFolder}/main.c",
+                "${workspaceFolder}/levels/levels.c",
+                "-o",
+                "${workspaceFolder}/main.exe",
+                "-I", "D:/MyPrograms/GamesProjects/GGE/SDL3-3.2.28/x86_64-w64-mingw32/include",
+                "-I", "D:/MyPrograms/GamesProjects/GGE/SDL3_ttf-devel-3.1.0-mingw/SDL3_ttf-3.1.0/x86_64-w64-mingw32/include",
+                "-I", "D:/MyPrograms/GamesProjects/GGE/SDL3_image-devel-3.2.4-mingw/SDL3_image-3.2.4/x86_64-w64-mingw32/include",
+                "-L", "D:/MyPrograms/GamesProjects/GGE/SDL3-3.2.28/x86_64-w64-mingw32/lib",
+                "-L", "D:/MyPrograms/GamesProjects/GGE/SDL3_ttf-devel-3.1.0-mingw/SDL3_ttf-3.1.0/x86_64-w64-mingw32/lib",
+                "-L", "D:/MyPrograms/GamesProjects/GGE/SDL3_image-devel-3.2.4-mingw/SDL3_image-3.2.4/x86_64-w64-mingw32/lib",
+                "-lSDL3",
+                "-lSDL3_ttf",
+                "-lSDL3_image"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}
